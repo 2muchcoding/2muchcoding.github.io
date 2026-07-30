@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ITWS 1100 Images</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    /* Simple image layout fix */
+    .content-item {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .content-item img {
+      width: 120px;        /* Uniform size */
+      height: 120px;       /* Keeps images even */
+      object-fit: cover;   /* Ensures they fill the box neatly */
+      border-radius: 10px; /* Soft corners (optional) */
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+    }
+
+    .content-item img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <section class="page-header">
+    <h1>Images</h1>
+    <p class="tagline">List of images used in website</p>
+  </section>
+  <main>
+    <section class="contents">
+      <div class="content-item">
+        <img src="profile.png" alt="Profile icon">
+        <img src="projects (2).png" alt="Projects icon">
+        <img src="aboutme.png" alt="About Me icon">
+        <img src="number-1.png" alt="Number 1 icon">
+        <img src="number-2.png" alt="Number 2 icon">
+        <img src="number-3.png" alt="Number 3 icon">
+        <img src="number-4.png" alt="Number 4 icon">
+        <img src="number-5.png" alt="Number 5 icon">
+        <img src="number-6.png" alt="Number 6 icon">
+        <img src="number-7.png" alt="Number 7 icon">
+        <img src="number-8.png" alt="Number 8 icon">
+        <img src="resources (2).png" alt="Resources icon">
+        <img src="labs (2).png" alt="Labs icon">
+        <img src="images.png" alt="Images icon">
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Anoua Carrie | ITWS 1100 | Images</p>
+  </footer>
+</body>
+</html>

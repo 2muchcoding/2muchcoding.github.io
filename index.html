@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anoua Carrie | ITWS Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #ffffff;
+    }
+
+    /* Navigation Bar */
+    nav {
+      background-color: #ffffff;
+      border-bottom: 1px solid #e0e0e0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #333;
+      text-decoration: none;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: #666;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+      font-size: 0.95rem;
+    }
+
+    .nav-links a:hover,
+    .nav-links a.active {
+      color: #333;
+    }
+
+    /* Hero Section */
+    .hero {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 4rem 2rem 2rem;
+      text-align: center;
+    }
+
+    .profile-pic {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #f0f0f0;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #333;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero .tagline {
+      font-size: 1.1rem;
+      color: #666;
+      margin-bottom: 0.3rem;
+    }
+
+    .hero .contact-info {
+      font-size: 0.95rem;
+      color: #888;
+      margin-top: 0.5rem;
+    }
+
+    /* About Section */
+    .about-section {
+      max-width: 900px;
+      margin: 3rem auto;
+      padding: 0 2rem;
+    }
+
+    .section-title {
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: #333;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+
+    .about-content {
+      background-color: #fafafa;
+      padding: 2rem;
+      border-radius: 8px;
+      border: 1px solid #e0e0e0;
+      text-align: left;
+    }
+
+    .about-content p {
+      font-size: 1.05rem;
+      color: #555;
+      line-height: 1.8;
+    }
+
+    /* Portfolio Navigation Section */
+    .portfolio-nav {
+      max-width: 1000px;
+      margin: 3rem auto;
+      padding: 0 2rem;
+    }
+
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .portfolio-card {
+      background-color: #ffffff;
+      padding: 2rem;
+      border-radius: 8px;
+      border: 1px solid #e0e0e0;
+      text-align: center;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      text-decoration: none;
+      color: #333;
+    }
+
+    .portfolio-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    .portfolio-card img {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 1rem;
+    }
+
+    .portfolio-card h3 {
+      font-size: 1.3rem;
+      color: #333;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+
+    .portfolio-card p {
+      font-size: 0.9rem;
+      color: #666;
+      line-height: 1.5;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #fafafa;
+      border-top: 1px solid #e0e0e0;
+      margin-top: 4rem;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    footer p {
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .nav-container {
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      .nav-links {
+        gap: 1rem;
+      }
+
+      .hero h1 {
+        font-size: 2rem;
+      }
+
+      .portfolio-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="nav-container">
+      <a href="#" class="logo">Anoua Carrie</a>
+      <ul class="nav-links">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="labs/">Labs</a></li>
+        <li><a href="projects/">Projects</a></li>
+        <li><a href="resources/">Resources</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="resources/images/profile.png" alt="Profile picture of Anoua Carrie" class="profile-pic">
+    <h1>Anoua Carrie</h1>
+    <p class="tagline">Computer Science Student-Athlete | ITWS 1100 Portfolio</p>
+    <p class="contact-info">San Juan Capistrano, California | 949-317-7524 | anoua.carrie@gmail.com</p>
+    <p class="contact-info">View RSS labs feed: <a href="labs/rss.xml">RSS Feed</a></p>
+    <p><a href="Quiz3/index.php">Leave a Comment</a></p>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="about-section">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-content">
+      <p>Hello, my name is Anoua Carrie and I am a Computer Science student with strong interests in systems programming, software development, web technologies, and embedded/firmware engineering. I am highly motivated to expand technical expertise, strengthen coding and problem-solving abilities, and contribute to innovative, real-world projects.</p>
+    </div>
+  </section>
+
+  <!-- Portfolio Navigation -->
+  <section class="portfolio-nav">
+    <h2 class="section-title">Explore My Work</h2>
+    <div class="portfolio-grid">
+      <a href="labs/" class="portfolio-card">
+        <img src="resources/images/labs (2).png" alt="Labs">
+        <h3>Labs</h3>
+        <p>Hands-on technical exercises and experiments</p>
+      </a>
+      <a href="projects/" class="portfolio-card">
+        <img src="resources/images/projects (2).png" alt="Projects">
+        <h3>Projects</h3>
+        <p>Completed projects and applications</p>
+      </a>
+      <a href="resources/" class="portfolio-card">
+        <img src="resources/images/resources (2).png" alt="Resources">
+        <h3>Resources</h3>
+        <p>Helpful tools and learning materials</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Anoua Carrie | ITWS 1100</p>
+  </footer>
+</body>
+</html>

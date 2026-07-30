@@ -1,0 +1,1 @@
+On line 33 in the h2 CSS class, I added "clear: both;" after asking ChatGPT how to solve my issue I had at the beginning where the text after each h2 would not go under the header, but start to the right of it. The prompt I gave was how to wrap text under a header.

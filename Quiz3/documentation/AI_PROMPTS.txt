@@ -1,0 +1,18 @@
+Save 3-5 actual prompts you used with AI (ChatGPT) and brief notes on the results:
+
+1. How do I get the data from my comment form into the database using php, like what should be in submit_comment.php?
+AI gave me a basic structure for handling $_POST, inserting into MySQL, and returning success/error messages. It gave me a full example of a working submit_comment.php file that helped me understand how all the pieces fit together.
+
+2. When I click submit form in my website, it says that the website isnt working, why and how to fix? 
+AI analyzed the code I sent and found two major issues:
+1. Missing Database Connection in submit_comment.php
+You're using $conn but never created it. You need to establish a connection after including config.inc.php.
+2. Your table is called siteComments (from the image) but your code references comments.
+After fixing those two things, my form started working normally.
+
+3. Can you fix my css so my comments look nice and are in a clean list? they’re all different widths and don’t line up
+AI rewrote my .comment styling using padding, border-radius, and consistent width, which fixed the layout. After updating the CSS, all the comments displayed in a uniform, professional-looking layout instead of being messy and different sizes.
+
+4. Why isn't my DB connection working? It keeps saying mysqli error but I don’t know what part is wrong.
+AI had me print $db->connect_error directly so I could see the real problem.
+It turned out my config.inc.php had a typo in my password (a missing quote), and AI helped me trace that down. Once I fixed the config file, the connection worked.

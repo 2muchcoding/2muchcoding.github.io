@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/rss.css"?>
+
+<rss version="2.0">
+  <channel>
+    <title>Labs Feed</title>
+    <link>http://carria6rpi.eastus.cloudapp.azure.com/iit/labs/</link>
+    <description>RSS feed of completed labs</description>
+
+    <item>
+      <title>Lab 1</title>
+      <link>http://carria6rpi.eastus.cloudapp.azure.com/iit/labs/lab01/</link>
+      <description>Server and Github setup</description>
+      <pubDate>Mon, 01 Sep 2025 12:00:00 GMT</pubDate>
+      <guid isPermaLink="true">http://carria6rpi.eastus.cloudapp.azure.com/iit/labs/lab01/</guid>
+    </item>
+
+    <item>
+      <title>Lab 2</title>
+      <link>http://carria6rpi.eastus.cloudapp.azure.com/iit/labs/lab02/</link>
+      <description>HTML and CSS - Build a single page resume</description>
+      <pubDate>Mon, 08 Sep 2025 12:00:00 GMT</pubDate>
+      <guid isPermaLink="true">http://carria6rpi.eastus.cloudapp.azure.com/iit/labs/lab02/</guid>
+    </item>
+
+    <item>
+      <title>Lab 3</title>
+      <link>http://carria6rpi.eastus.cloudapp.azure.com/iit/labs/lab03/</link>
+      <description>Personal Website creation</description>
+      <pubDate>Mon, 15 Sep 2025 12:00:00 GMT</pubDate>
+      <guid isPermaLink="true">http://carria6rpi.eastus.cloudapp.azure.com/iit/labs/lab03/</guid>
+    </item>
+
+    <item>
+      <title>Lab 4</title>
+      <link>http://carria6rpi.eastus.cloudapp.azure.com/iit/labs/lab04/</link>
+      <description>XML and RSS Feed formatting</description>
+      <pubDate>Mon, 22 Sep 2025 12:00:00 GMT</pubDate>
+      <guid isPermaLink="true">http://carria6rpi.eastus.cloudapp.azure.com/iit/labs/lab04/</guid>
+    </item>
+  </channel>
+</rss>

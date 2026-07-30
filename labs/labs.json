@@ -1,0 +1,63 @@
+[
+  {
+    "id": "lab01",
+    "title": "Lab 1",
+    "description": "First laboratory assignment",
+    "image": "../resources/images/number-1.png"
+  },
+  {
+    "id": "lab02",
+    "title": "Lab 2",
+    "description": "Second laboratory assignment",
+    "image": "../resources/images/number-2.png"
+  },
+  {
+    "id": "lab03",
+    "title": "Lab 3",
+    "description": "Third laboratory assignment",
+    "image": "../resources/images/number-3.png"
+  },
+  {
+    "id": "lab04",
+    "title": "Lab 4",
+    "description": "Fourth laboratory assignment",
+    "image": "../resources/images/number-4.png"
+  },
+  {
+    "id": "lab05",
+    "title": "Lab 5",
+    "description": "Fifth laboratory assignment",
+    "image": "../resources/images/number-5.png"
+  },
+  {
+    "id": "lab06",
+    "title": "Lab 6",
+    "description": "Sixth laboratory assignment",
+    "image": "../resources/images/number-6.png"
+  },
+  {
+    "id": "lab07",
+    "title": "Lab 7",
+    "description": "Seventh laboratory assignment",
+    "image": "../resources/images/number-7.png"
+  },
+  {
+    "id": "lab08",
+    "title": "Lab 8",
+    "description": "Eight laboratory assignment",
+    "image": "../resources/images/number-8.png"
+  },
+  {
+    "id": "lab09",
+    "title": "Lab 9",
+    "description": "Ninth laboratory assignment",
+    "image": "../resources/images/number-9.png"
+  },
+  {
+    "id": "lab10",
+    "title": "Lab 10",
+    "description": "Tenth laboratory assignment",
+    "image": "../resources/images/number-10.png"
+  }
+  
+]

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ITWS 1100 Lab 1</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    /* Simple styling for vertical image list */
+    .lab-images {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .lab-images h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .lab-images img {
+      display: block;
+      width: 100%;          /* Uniform width */
+      max-width: 600px;     /* Limit max size */
+      height: auto;         /* Keeps aspect ratio */
+      margin: 15px auto;    /* Center images with spacing */
+      border-radius: 10px;  /* Optional rounded corners */
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Clean shadow */
+      transition: transform 0.2s ease;
+    }
+
+    .lab-images img:hover {
+      transform: scale(1.02);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Lab 1</h1>
+    <p class="tagline">
+      In this lab, I set up the foundation for my personal ITWS web environment. 
+      I configured an Azure server instance and linked it with my GitHub account 
+      and local machine to create a smooth workflow for developing and deploying code. 
+      I verified that my web server was running properly, created a basic “Hello World” page, 
+      and confirmed PHP functionality with a test page. 
+      Overall, this lab established the core infrastructure I’ll use throughout the course 
+      to manage and showcase my work.
+    </p>
+  </header>
+
+  <main>
+    <section class="lab-images">
+      <h2>Lab Screenshots</h2>
+      <img src="carria6-lab1-HelloWorld.png" alt="Hello World page screenshot">
+      <img src="carria6-lab1-AzureStatus.png" alt="Azure Status screenshot">
+      <img src="carria6-lab1-GitHubInfo.png" alt="GitHub Info screenshot">
+      <img src="carria6-lab1-PHPMyAdmin.png" alt="PHPMyAdmin screenshot">
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Anoua Carrie | ITWS 1100 | Lab 1</p>
+  </footer>
+</body>
+</html>

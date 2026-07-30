@@ -1,0 +1,31 @@
+/* Style the channel title */
+channel > title {
+  display: block;
+  font-size: 28px;
+  font-weight: bold;
+  color: darkblue;
+  margin-bottom: 10px;
+}
+
+channel > description {
+  display: block;
+  font-style: italic;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+/* Style item titles */
+item > title {
+  display: block;
+  font-size: 20px;
+  color: green;
+  margin-top: 8px;
+}
+
+/* Style descriptions */
+item > description {
+  display: block;
+  font-style: italic;
+  color: #555;
+  margin-bottom: 12px;
+}
